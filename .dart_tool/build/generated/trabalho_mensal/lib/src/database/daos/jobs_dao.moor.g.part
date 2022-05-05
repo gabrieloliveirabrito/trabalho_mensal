@@ -1,7 +1,0 @@
-// **************************************************************************
-// DaoGenerator
-// **************************************************************************
-
-mixin _$JobsDaoMixin on DatabaseAccessor<Database> {
-  $JobTable get job => attachedDatabase.job;
-}

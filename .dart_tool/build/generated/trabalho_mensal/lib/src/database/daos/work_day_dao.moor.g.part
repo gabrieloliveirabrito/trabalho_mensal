@@ -1,7 +1,0 @@
-// **************************************************************************
-// DaoGenerator
-// **************************************************************************
-
-mixin _$WorkDayDaoMixin on DatabaseAccessor<Database> {
-  $WorkDayTable get workDay => attachedDatabase.workDay;
-}
