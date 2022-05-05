@@ -1,0 +1,36 @@
+name: trabalho_mensal
+description: Projeto para gerenciar o trabalho realizado no mês
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl:
+  drift:
+  sqlite3_flutter_libs: ^0.5.0
+  path_provider: ^2.0.0
+  path: ^1.8.1
+  table_calendar:
+  provider:
+  flutter_phoenix:
+  flutter_platform_widgets:
+  endless:
+  mobx:
+  flutter_mobx:
+
+dev_dependencies:
+  drift_dev: ^1.5.2
+  build_runner: ^2.1.8
+  mobx_codegen:
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
